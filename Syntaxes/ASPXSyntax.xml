@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<syntax name="language-root.aspx">
+	<zones>
+		
+		<!-- This is only in a collection so that it can be pulled in by other languages -->
+		<include syntax="language-root.html"/> 
+		
+		<include collection="entities"/>
+		
+	</zones>
+    
+	
+</syntax>

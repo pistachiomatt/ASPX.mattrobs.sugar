@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+	<language id="espresso.matthew.aspx">
+		
+		<!-- The root zone name for this language. This can be defined in one of the syntax definitions under Syntaxes, or in another bundle. -->
+		<root-zone>language-root.aspx</root-zone>
+		
+		<!-- The name of the language as presented to the user -->
+		<name>ASPX</name>
+		
+		<!-- Ways to detect if a certain file is in this language -->
+		<detectors>
+			<extension>aspx</extension>
+			<extension>ascx</extension>
+			<match-content lines="2"><![CDATA[(?i)<!DOCTYPE html]]></match-content>
+			<match-content lines="1"><![CDATA[(?i)<html]]></match-content>
+		</detectors>
+		
+	</language>
+	
+</settings>
